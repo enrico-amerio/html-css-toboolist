@@ -15,12 +15,15 @@ body {
     }
     
   }
-  
+li{
+  list-style-type: none;
+}  
 /*header*/
 header{
   width: 100%;
   height: 130px;
   background-color: white;
+  margin-bottom:70px ;
   
   
 }
@@ -43,13 +46,15 @@ header div img{
 /*MAIN*/
 .container{
   max-width: 1400px;
-  height: 85px ;
   margin: auto;
-  margin-top:70px ;
+  margin-bottom: 4px;
   background-color: white;
+  
+}
+.container.top{
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
-
+  height: 85px ;
 }
 #add-task {
   margin-left: 80px;
@@ -63,4 +68,25 @@ header div img{
   border-color: #cfd4d8;
   background-color: white;
   border: 2px solid;
+}
+.container.bottom{
+  height: 1000px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.list{
+  
+  padding-left: 90px;
+
+}
+li{
+  font-size: 20px;
+  margin-bottom:10px ;
+}
+.main-li{
+  padding-top: 66px;
+  margin-bottom: 30px;
+  font-size:30px;
+  font-weight: bold;
+
 }
