@@ -90,3 +90,14 @@ li{
   font-weight: bold;
 
 }
+.check, .saltire{
+  border: 3px solid;
+  border-radius: 50%;
+ 
+}
+.check{
+  color:rgba(140,209,193,255) ;
+}
+.saltire{
+  color:rgba(239,106,97,255);
+}
