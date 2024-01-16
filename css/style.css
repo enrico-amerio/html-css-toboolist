@@ -5,11 +5,23 @@ box-sizing: border-box;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
-}
+  background-color: #f6f8f9;
+  button{
+    height: 45px;
+    width: 120px;
+    margin-top: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+    }
+    
+  }
+  
 /*header*/
 header{
   width: 100%;
   height: 130px;
+  background-color: white;
+  
   
 }
 header div {
@@ -20,7 +32,7 @@ header div {
 header div h1 {
   display: inline-block;
   vertical-align: middle;
-  font-size: 50px;
+  font-size: 70px;
   
 }
 header div img{
@@ -28,4 +40,27 @@ header div img{
   width: 90px;
   height: 90px;
 }
-/*BODY*/
+/*MAIN*/
+.container{
+  max-width: 1400px;
+  height: 85px ;
+  margin: auto;
+  margin-top:70px ;
+  background-color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+
+}
+#add-task {
+  margin-left: 80px;
+  background-color: #47adf1;
+  color: white;
+  border: none;
+    
+}
+#add-section {
+  color: #cfd4d8;
+  border-color: #cfd4d8;
+  background-color: white;
+  border: 2px solid;
+}
