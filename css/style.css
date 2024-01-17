@@ -6,42 +6,36 @@ box-sizing: border-box;
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f6f8f9;
-  button{
-    height: 45px;
-    width: 120px;
-    margin-top: 25px;
-    font-size: 16px;
-    border-radius: 5px;
-    }
-    
+   
   }
+button{
+  padding: 10px 20px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+    }
 li{
   list-style-type: none;
 }  
 /*header*/
 header{
-  width: 100%;
-  height: 130px;
   background-color: white;
   margin-bottom:70px ;
+  padding: 20px 40px;
   
   
 }
-header div {
-  padding-top: 20px;
-  padding-left:40px ;
-}
-
 header div h1 {
   display: inline-block;
   vertical-align: middle;
-  font-size: 70px;
+  font-size: 50px;
   
 }
 header div img{
   vertical-align: middle;
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
 }
 /*MAIN*/
 .container{
@@ -61,13 +55,13 @@ header div img{
   margin-left: 80px;
   background-color: #47adf1;
   color: white;
-  border: none;
+  border: 2px solid #47adf1;
     
 }
 #add-section {
   color: #cfd4d8;
-  border-color: #cfd4d8;
   background-color: white;
+  border-color: #cfd4d8;
   border: 2px solid;
 }
 .container.bottom{
@@ -81,13 +75,12 @@ header div img{
 
 }
 li{
-  font-size: 20px;
-  margin-bottom:20px ;
+  font-size: 15px;
+  margin-bottom:30px ;
 }
 .main-li{
-  padding-top: 66px;
-  margin-bottom: 30px;
-  font-size:30px;
+  padding-top: 45px;
+  font-size:25px;
   font-weight: bold;
 
 }
@@ -102,7 +95,7 @@ li{
 .saltire{
   color:rgba(239,106,97,255);
 }
-.category{
+.badge{
   border-radius: 20px;
   padding:10px;
   font-size: .6em;
@@ -110,23 +103,23 @@ li{
   color: white;
   
 }
-.blue{
+.badge.blue{
   background-color: #47adf1;
   
 }
-.purple{
+.badge.purple{
   background-color: rgba(156,114,228,255);
 }
-.green{
+.badge.green{
   background-color: rgba(100,192,169,255);ù
 
 }
-.orange{
+.badge.orange{
   background-color: rgba(242,158,51,255);
 }
-.pink{
+.badge.pink{
   background-color: rgba(216,99,161,255);
 }
-.greener{
+.badge.greener{
   background-color: rgba(176,201,38,255) ;
 }
